@@ -1,0 +1,102 @@
+.Main-div{
+    width: 80%;
+    margin: 50px auto;
+}
+.Container-1{
+    width: 400px;
+    height: 500px;
+    border: 2px dashed black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1{
+    background: red;
+    border:2px solid green;
+    font-size: 20px;
+}
+.Container-2{
+    width: 900px;
+    height: 350px;
+    margin: 0px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.item2{
+    background: red;
+    border: 2px solid blue;
+    font-size: 20px;
+}
+.Container-3{
+    border: 2px solid black;
+    width: 460px;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+     
+
+}
+.item-3{
+    font-size: 25px;
+    background: red;
+    border: 2px solid blue;
+    height: 25px;
+}
+.Container-4{
+    margin: 10px auto;
+    width:900px ;
+    height: 350px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: flex-start;
+}
+.item-4{
+        background: red;
+        border:2px solid rgb(28, 240, 28);
+        width: 20%;
+        font-size: 25px;
+        color: white;
+}
+ 
+.i-3{
+    order:-1;
+}
+.Container-5{
+    margin: 50px auto;
+    width:900px ;
+    height: 500px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: flex-start;
+}
+.item-5{
+        background: red;
+        border:2px solid rgb(28, 240, 28);
+        width: 20%;
+        font-size: 25px;
+        color: white;
+}
+.dc-4{
+    align-self: center;
+}
+.dc-3{
+    align-self: flex-end;
+}
+.Container-6{
+    width: 1100px;
+    height: 600px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-end;
+}
+.item-6{
+    background: red;
+    border: 2px solid whitesmoke;
+    font-size: 25px;
+}
